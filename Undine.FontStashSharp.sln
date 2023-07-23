@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undine.FontStashSharp", "Undine.FontStashSharp\Undine.FontStashSharp.csproj", "{8C1C2D48-3FE2-4034-A74C-923ED81D41FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Undine.FontStashSharp", "Undine.FontStashSharp\Undine.FontStashSharp.csproj", "{8C1C2D48-3FE2-4034-A74C-923ED81D41FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undine.FontStashSharp.Sample", "Undine.FontStashSharp.Sample\Undine.FontStashSharp.Sample.csproj", "{A83F14A0-8947-4743-BB50-F3CB104F72F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8C1C2D48-3FE2-4034-A74C-923ED81D41FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C1C2D48-3FE2-4034-A74C-923ED81D41FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C1C2D48-3FE2-4034-A74C-923ED81D41FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A83F14A0-8947-4743-BB50-F3CB104F72F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A83F14A0-8947-4743-BB50-F3CB104F72F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A83F14A0-8947-4743-BB50-F3CB104F72F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A83F14A0-8947-4743-BB50-F3CB104F72F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

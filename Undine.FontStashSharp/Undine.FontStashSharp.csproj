@@ -5,9 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FontStashSharp" Version="1.2.8" />
     <PackageReference Include="FontStashSharp.MonoGame" Version="1.2.8" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
     <PackageReference Include="Undine.Core" Version="0.0.0.6" />
+    <PackageReference Include="Undine.MonoGame" Version="0.0.6" />
   </ItemGroup>
 
 </Project>

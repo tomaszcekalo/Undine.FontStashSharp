@@ -1,13 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using FontStashSharp;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace Undine.FontStashSharp
 {
     public struct FontStashSharpComponent
     {
-        public SpriteFont Font { get; internal set; }
-        public string Text { get; internal set; }
+        public SpriteFontBase Font;
+        public string Text;
+        public int CharacterSpacing;
+        public int LineSpacing;
+        public TextStyle TextStyle;
+        public FontSystemEffect FontSystemEffect;
+        public int EffectAmount;
     }
 }
